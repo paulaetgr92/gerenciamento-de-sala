@@ -16,7 +16,7 @@ RUN useradd -m appuser
 USER appuser
 
 # Definir a porta da aplicação
-EXPOSE 5003
+EXPOSE 5001
 
 # Comando para rodar a aplicação
 CMD ["python", "app.py"]
